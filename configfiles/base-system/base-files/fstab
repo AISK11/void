@@ -8,3 +8,6 @@ LABEL=VOID-ROOT     /                         btrfs    defaults,noatime,compress
 LABEL=ESP           /boot                     vfat     defaults,noatime,umask=0077                          0 1
 /swap               none                      swap     defaults,nofail                                      0 0
 #efivarfs            /sys/firmware/efi/efivars efivarfs ro,nosuid,nodev,noexec,relatime                      0 0
+
+## To mount efivarfs as RO in runit, edit
+## '/etc/runit/core-services/00-pseudofs.sh'.
