@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 ## AUTHOR:       AISK11
 ## LOCATION:     /etc/grub.d/40_custom (0755 root:root)
